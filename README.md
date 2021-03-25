@@ -8,9 +8,9 @@ AcheronSymbols is the AcheronProject's library for KiCad symbols. Every symbol w
 
 ## How to use
 
-First, clone the git repository into a ``libraries`` folder inside your KiCad project main folder known was ``${KIPRJMOD}``. Then, in EESCHEMA, go into ``Preferences > Manage Symbol Libraries... `` then under the Project tab, press the plus sign and select the ``acheronSymbols.sym`` file.
-
-After that the library symbols should be available for addition in the schematic from the ``Add a symbol`` button. 
+1. Clone the git repository into a ``libraries`` folder inside your KiCad project main folder, also known was ``${KIPRJMOD}``
+2. In EESCHEMA, go into ``Preferences > Manage Symbol Libraries... `` then under the Project tab, press the plus sign and select the ``acheronSymbols.sym`` file.
+3. After that the library symbols should be available for addition in the schematic from the ``Add a symbol`` button. Click that button or press A and try adding a symbol from the library like the ``MXSwitch`` symbol.
 
 ## Copyright notice
 
