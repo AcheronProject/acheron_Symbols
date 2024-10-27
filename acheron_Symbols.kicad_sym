@@ -10809,7 +10809,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "HE"
+		(property "Reference" "SW"
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -10817,7 +10817,7 @@
 				)
 			)
 		)
-		(property "Value" "HE_SWITCH"
+		(property "Value" "Mechanical_Switch"
 			(at 0 -3.81 0)
 			(effects
 				(font
@@ -10871,6 +10871,68 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.35 0) (xy -8.89 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 6.35) (xy 0 8.89)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Mechanical_Switch_1_1"
+			(pin bidirectional line
+				(at -8.89 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 8.89 270)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
 				)
 			)
 		)
